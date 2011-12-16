@@ -491,7 +491,6 @@
 				6F4D634F149BE96D0022E702 /* GameplayLayer.m */,
 				6F4D6349149BE8DC0022E702 /* GameScene.m */,
 				6F4D633D149BE7C70022E702 /* RootViewController.m */,
-				6F4D636A149BFA1C0022E702 /* JoystickClasses */,
 				6F4D61FC149BE7C30022E702 /* libs */,
 				6F4D61E8149BE7C30022E702 /* Resources */,
 				6F4D6335149BE7C70022E702 /* Supporting Files */,
@@ -522,6 +521,7 @@
 		6F4D61FC149BE7C30022E702 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				6F4D636A149BFA1C0022E702 /* JoystickClasses */,
 				6F4D62F2149BE7C70022E702 /* LICENSE_cocos2d.txt */,
 				6F4D6301149BE7C70022E702 /* LICENSE_CocosDenshion.txt */,
 				6F4D630C149BE7C70022E702 /* LICENSE_TouchJSON.txt */,

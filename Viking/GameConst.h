@@ -15,5 +15,6 @@ typedef enum _nodeTags {
     kTagGameplayLayer
 } NodeTags;
 
+#define kJoystickVelocityScaleFactor 1024.0f
 
 #endif

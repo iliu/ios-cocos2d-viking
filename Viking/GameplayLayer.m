@@ -11,6 +11,19 @@
 
 @implementation GameplayLayer
 
+-(void)applyJoystick:(SneakyJoystick *)aJoystick toNode:(CCNode *)tempNode forTimeDelta:(float)deltaTime {
+
+    CGPoint scaledVelocity = ccpMult(aJoystick.velocity, kJoystickVelocityScaleFactor);
+    CGPoint newPosition = ccp(tempNode.position.x + scaledVelocity.x * deltaTime, tempNode.position.y + scaledVelocity.y * deltaTime);
+    [tempNode setPosition:newPosition];
+    
+    if (jumpButton.active == YES) {
+        CCLOG(@"Jump Button Pressed");
+    }
+    if (attackButton.active == YES) {
+        CCLOG(@"Attach Button Pressed");
+    }
+}
 
 -(void)initJoystickAndButtons{
     CGSize screenSize = [CCDirector sharedDirector].winSize;       // 1
@@ -86,6 +99,10 @@
     [self addChild:attackButtonBase];                     
 }
 
+-(void)update:(ccTime)deltaTime {
+    [self applyJoystick:joystick toNode:vikingImage forTimeDelta:deltaTime];
+}
+
 -(id)init{
     self = [super init];
     if (!self)
@@ -106,6 +123,7 @@
     }
     
     [self initJoystickAndButtons];
+    [self scheduleUpdate];
     
     return self;
 }
