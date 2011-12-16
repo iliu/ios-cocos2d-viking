@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 #import "BackgroundLayer.h"
+#import "GameplayLayer.h"
+#import "GameConst.h"
 
 @interface GameScene : CCNode {
     

@@ -123,10 +123,32 @@
 		6F4D633E149BE7C70022E702 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D633D149BE7C70022E702 /* RootViewController.m */; };
 		6F4D634A149BE8DC0022E702 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D6349149BE8DC0022E702 /* GameScene.m */; };
 		6F4D634D149BE9470022E702 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D634C149BE9470022E702 /* BackgroundLayer.m */; };
-		6F4D6350149BE96D0022E702 /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D634F149BE96D0022E702 /* GameLayer.m */; };
+		6F4D6350149BE96D0022E702 /* GameplayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D634F149BE96D0022E702 /* GameplayLayer.m */; };
 		6F4D6360149BF0350022E702 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D635D149BF0350022E702 /* background.png */; };
 		6F4D6361149BF0350022E702 /* backgroundiPhone-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D635E149BF0350022E702 /* backgroundiPhone-hd.png */; };
 		6F4D6362149BF0350022E702 /* backgroundiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D635F149BF0350022E702 /* backgroundiPhone.png */; };
+		6F4D6364149BF1650022E702 /* sv_anim_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D6363149BF1640022E702 /* sv_anim_1.png */; };
+		6F4D6378149BFA1C0022E702 /* ColoredCircleSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D636C149BFA1C0022E702 /* ColoredCircleSprite.m */; };
+		6F4D6379149BFA1C0022E702 /* ColoredSquareSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D636E149BFA1C0022E702 /* ColoredSquareSprite.m */; };
+		6F4D637A149BFA1C0022E702 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D636F149BFA1C0022E702 /* LICENSE */; };
+		6F4D637B149BFA1C0022E702 /* SneakyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D6371149BFA1C0022E702 /* SneakyButton.m */; };
+		6F4D637C149BFA1C0022E702 /* SneakyButtonSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D6373149BFA1C0022E702 /* SneakyButtonSkinnedBase.m */; };
+		6F4D637D149BFA1C0022E702 /* SneakyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D6375149BFA1C0022E702 /* SneakyJoystick.m */; };
+		6F4D637E149BFA1C0022E702 /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D6377149BFA1C0022E702 /* SneakyJoystickSkinnedBase.m */; };
+		6F4D63AB149BFE890022E702 /* dpadDown-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D639D149BFE890022E702 /* dpadDown-hd.png */; };
+		6F4D63AC149BFE890022E702 /* dpadDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D639E149BFE890022E702 /* dpadDown.png */; };
+		6F4D63AD149BFE890022E702 /* dpadUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D639F149BFE890022E702 /* dpadUp.png */; };
+		6F4D63AE149BFE890022E702 /* handDown-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63A0149BFE890022E702 /* handDown-hd.png */; };
+		6F4D63AF149BFE890022E702 /* handDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63A1149BFE890022E702 /* handDown.png */; };
+		6F4D63B0149BFE890022E702 /* handUp-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63A2149BFE890022E702 /* handUp-hd.png */; };
+		6F4D63B1149BFE890022E702 /* handUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63A3149BFE890022E702 /* handUp.png */; };
+		6F4D63B2149BFE890022E702 /* joystickDown-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63A4149BFE890022E702 /* joystickDown-hd.png */; };
+		6F4D63B3149BFE890022E702 /* joystickDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63A5149BFE890022E702 /* joystickDown.png */; };
+		6F4D63B4149BFE890022E702 /* joystickUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63A6149BFE890022E702 /* joystickUp.png */; };
+		6F4D63B5149BFE890022E702 /* jumpDown-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63A7149BFE890022E702 /* jumpDown-hd.png */; };
+		6F4D63B6149BFE890022E702 /* jumpDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63A8149BFE890022E702 /* jumpDown.png */; };
+		6F4D63B7149BFE890022E702 /* jumpUp-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63A9149BFE890022E702 /* jumpUp-hd.png */; };
+		6F4D63B8149BFE890022E702 /* jumpUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D63AA149BFE890022E702 /* jumpUp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -367,11 +389,40 @@
 		6F4D6349149BE8DC0022E702 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		6F4D634B149BE9470022E702 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
 		6F4D634C149BE9470022E702 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
-		6F4D634E149BE96D0022E702 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
-		6F4D634F149BE96D0022E702 /* GameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
+		6F4D634E149BE96D0022E702 /* GameplayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameplayLayer.h; sourceTree = "<group>"; };
+		6F4D634F149BE96D0022E702 /* GameplayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameplayLayer.m; sourceTree = "<group>"; };
 		6F4D635D149BF0350022E702 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		6F4D635E149BF0350022E702 /* backgroundiPhone-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundiPhone-hd.png"; sourceTree = "<group>"; };
 		6F4D635F149BF0350022E702 /* backgroundiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundiPhone.png; sourceTree = "<group>"; };
+		6F4D6363149BF1640022E702 /* sv_anim_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sv_anim_1.png; sourceTree = "<group>"; };
+		6F4D6365149BF4090022E702 /* GameConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConst.h; sourceTree = "<group>"; };
+		6F4D636B149BFA1C0022E702 /* ColoredCircleSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredCircleSprite.h; sourceTree = "<group>"; };
+		6F4D636C149BFA1C0022E702 /* ColoredCircleSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredCircleSprite.m; sourceTree = "<group>"; };
+		6F4D636D149BFA1C0022E702 /* ColoredSquareSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredSquareSprite.h; sourceTree = "<group>"; };
+		6F4D636E149BFA1C0022E702 /* ColoredSquareSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredSquareSprite.m; sourceTree = "<group>"; };
+		6F4D636F149BFA1C0022E702 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6F4D6370149BFA1C0022E702 /* SneakyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyButton.h; sourceTree = "<group>"; };
+		6F4D6371149BFA1C0022E702 /* SneakyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyButton.m; sourceTree = "<group>"; };
+		6F4D6372149BFA1C0022E702 /* SneakyButtonSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyButtonSkinnedBase.h; sourceTree = "<group>"; };
+		6F4D6373149BFA1C0022E702 /* SneakyButtonSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyButtonSkinnedBase.m; sourceTree = "<group>"; };
+		6F4D6374149BFA1C0022E702 /* SneakyJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystick.h; sourceTree = "<group>"; };
+		6F4D6375149BFA1C0022E702 /* SneakyJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystick.m; sourceTree = "<group>"; };
+		6F4D6376149BFA1C0022E702 /* SneakyJoystickSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedBase.h; sourceTree = "<group>"; };
+		6F4D6377149BFA1C0022E702 /* SneakyJoystickSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedBase.m; sourceTree = "<group>"; };
+		6F4D639D149BFE890022E702 /* dpadDown-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dpadDown-hd.png"; sourceTree = "<group>"; };
+		6F4D639E149BFE890022E702 /* dpadDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpadDown.png; sourceTree = "<group>"; };
+		6F4D639F149BFE890022E702 /* dpadUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpadUp.png; sourceTree = "<group>"; };
+		6F4D63A0149BFE890022E702 /* handDown-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handDown-hd.png"; sourceTree = "<group>"; };
+		6F4D63A1149BFE890022E702 /* handDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handDown.png; sourceTree = "<group>"; };
+		6F4D63A2149BFE890022E702 /* handUp-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handUp-hd.png"; sourceTree = "<group>"; };
+		6F4D63A3149BFE890022E702 /* handUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handUp.png; sourceTree = "<group>"; };
+		6F4D63A4149BFE890022E702 /* joystickDown-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joystickDown-hd.png"; sourceTree = "<group>"; };
+		6F4D63A5149BFE890022E702 /* joystickDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystickDown.png; sourceTree = "<group>"; };
+		6F4D63A6149BFE890022E702 /* joystickUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystickUp.png; sourceTree = "<group>"; };
+		6F4D63A7149BFE890022E702 /* jumpDown-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jumpDown-hd.png"; sourceTree = "<group>"; };
+		6F4D63A8149BFE890022E702 /* jumpDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jumpDown.png; sourceTree = "<group>"; };
+		6F4D63A9149BFE890022E702 /* jumpUp-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jumpUp-hd.png"; sourceTree = "<group>"; };
+		6F4D63AA149BFE890022E702 /* jumpUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jumpUp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,19 +480,21 @@
 			isa = PBXGroup;
 			children = (
 				6F4D6339149BE7C70022E702 /* AppDelegate.h */,
-				6F4D633A149BE7C70022E702 /* AppDelegate.m */,
-				6F4D6348149BE8DC0022E702 /* GameScene.h */,
-				6F4D6349149BE8DC0022E702 /* GameScene.m */,
-				6F4D633C149BE7C70022E702 /* RootViewController.h */,
-				6F4D633D149BE7C70022E702 /* RootViewController.m */,
-				6F4D6342149BE7C70022E702 /* GameConfig.h */,
-				6F4D61E8149BE7C30022E702 /* Resources */,
-				6F4D61FC149BE7C30022E702 /* libs */,
-				6F4D6335149BE7C70022E702 /* Supporting Files */,
 				6F4D634B149BE9470022E702 /* BackgroundLayer.h */,
+				6F4D6342149BE7C70022E702 /* GameConfig.h */,
+				6F4D6365149BF4090022E702 /* GameConst.h */,
+				6F4D634E149BE96D0022E702 /* GameplayLayer.h */,
+				6F4D6348149BE8DC0022E702 /* GameScene.h */,
+				6F4D633C149BE7C70022E702 /* RootViewController.h */,
+				6F4D633A149BE7C70022E702 /* AppDelegate.m */,
 				6F4D634C149BE9470022E702 /* BackgroundLayer.m */,
-				6F4D634E149BE96D0022E702 /* GameLayer.h */,
-				6F4D634F149BE96D0022E702 /* GameLayer.m */,
+				6F4D634F149BE96D0022E702 /* GameplayLayer.m */,
+				6F4D6349149BE8DC0022E702 /* GameScene.m */,
+				6F4D633D149BE7C70022E702 /* RootViewController.m */,
+				6F4D636A149BFA1C0022E702 /* JoystickClasses */,
+				6F4D61FC149BE7C30022E702 /* libs */,
+				6F4D61E8149BE7C30022E702 /* Resources */,
+				6F4D6335149BE7C70022E702 /* Supporting Files */,
 			);
 			path = Viking;
 			sourceTree = "<group>";
@@ -449,6 +502,8 @@
 		6F4D61E8149BE7C30022E702 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6F4D639C149BFE890022E702 /* Joystick */,
+				6F4D6363149BF1640022E702 /* sv_anim_1.png */,
 				6F4D635C149BF0350022E702 /* Backgrounds */,
 				6F4D61E9149BE7C30022E702 /* Default.png */,
 				6F4D61EB149BE7C30022E702 /* fps_images.png */,
@@ -786,6 +841,47 @@
 			path = Resources/Backgrounds;
 			sourceTree = "<group>";
 		};
+		6F4D636A149BFA1C0022E702 /* JoystickClasses */ = {
+			isa = PBXGroup;
+			children = (
+				6F4D636B149BFA1C0022E702 /* ColoredCircleSprite.h */,
+				6F4D636C149BFA1C0022E702 /* ColoredCircleSprite.m */,
+				6F4D636D149BFA1C0022E702 /* ColoredSquareSprite.h */,
+				6F4D636E149BFA1C0022E702 /* ColoredSquareSprite.m */,
+				6F4D636F149BFA1C0022E702 /* LICENSE */,
+				6F4D6370149BFA1C0022E702 /* SneakyButton.h */,
+				6F4D6371149BFA1C0022E702 /* SneakyButton.m */,
+				6F4D6372149BFA1C0022E702 /* SneakyButtonSkinnedBase.h */,
+				6F4D6373149BFA1C0022E702 /* SneakyButtonSkinnedBase.m */,
+				6F4D6374149BFA1C0022E702 /* SneakyJoystick.h */,
+				6F4D6375149BFA1C0022E702 /* SneakyJoystick.m */,
+				6F4D6376149BFA1C0022E702 /* SneakyJoystickSkinnedBase.h */,
+				6F4D6377149BFA1C0022E702 /* SneakyJoystickSkinnedBase.m */,
+			);
+			path = JoystickClasses;
+			sourceTree = "<group>";
+		};
+		6F4D639C149BFE890022E702 /* Joystick */ = {
+			isa = PBXGroup;
+			children = (
+				6F4D639D149BFE890022E702 /* dpadDown-hd.png */,
+				6F4D639E149BFE890022E702 /* dpadDown.png */,
+				6F4D639F149BFE890022E702 /* dpadUp.png */,
+				6F4D63A0149BFE890022E702 /* handDown-hd.png */,
+				6F4D63A1149BFE890022E702 /* handDown.png */,
+				6F4D63A2149BFE890022E702 /* handUp-hd.png */,
+				6F4D63A3149BFE890022E702 /* handUp.png */,
+				6F4D63A4149BFE890022E702 /* joystickDown-hd.png */,
+				6F4D63A5149BFE890022E702 /* joystickDown.png */,
+				6F4D63A6149BFE890022E702 /* joystickUp.png */,
+				6F4D63A7149BFE890022E702 /* jumpDown-hd.png */,
+				6F4D63A8149BFE890022E702 /* jumpDown.png */,
+				6F4D63A9149BFE890022E702 /* jumpUp-hd.png */,
+				6F4D63AA149BFE890022E702 /* jumpUp.png */,
+			);
+			path = Joystick;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -848,6 +944,22 @@
 				6F4D6360149BF0350022E702 /* background.png in Resources */,
 				6F4D6361149BF0350022E702 /* backgroundiPhone-hd.png in Resources */,
 				6F4D6362149BF0350022E702 /* backgroundiPhone.png in Resources */,
+				6F4D6364149BF1650022E702 /* sv_anim_1.png in Resources */,
+				6F4D637A149BFA1C0022E702 /* LICENSE in Resources */,
+				6F4D63AB149BFE890022E702 /* dpadDown-hd.png in Resources */,
+				6F4D63AC149BFE890022E702 /* dpadDown.png in Resources */,
+				6F4D63AD149BFE890022E702 /* dpadUp.png in Resources */,
+				6F4D63AE149BFE890022E702 /* handDown-hd.png in Resources */,
+				6F4D63AF149BFE890022E702 /* handDown.png in Resources */,
+				6F4D63B0149BFE890022E702 /* handUp-hd.png in Resources */,
+				6F4D63B1149BFE890022E702 /* handUp.png in Resources */,
+				6F4D63B2149BFE890022E702 /* joystickDown-hd.png in Resources */,
+				6F4D63B3149BFE890022E702 /* joystickDown.png in Resources */,
+				6F4D63B4149BFE890022E702 /* joystickUp.png in Resources */,
+				6F4D63B5149BFE890022E702 /* jumpDown-hd.png in Resources */,
+				6F4D63B6149BFE890022E702 /* jumpDown.png in Resources */,
+				6F4D63B7149BFE890022E702 /* jumpUp-hd.png in Resources */,
+				6F4D63B8149BFE890022E702 /* jumpUp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -957,7 +1069,13 @@
 				6F4D633E149BE7C70022E702 /* RootViewController.m in Sources */,
 				6F4D634A149BE8DC0022E702 /* GameScene.m in Sources */,
 				6F4D634D149BE9470022E702 /* BackgroundLayer.m in Sources */,
-				6F4D6350149BE96D0022E702 /* GameLayer.m in Sources */,
+				6F4D6350149BE96D0022E702 /* GameplayLayer.m in Sources */,
+				6F4D6378149BFA1C0022E702 /* ColoredCircleSprite.m in Sources */,
+				6F4D6379149BFA1C0022E702 /* ColoredSquareSprite.m in Sources */,
+				6F4D637B149BFA1C0022E702 /* SneakyButton.m in Sources */,
+				6F4D637C149BFA1C0022E702 /* SneakyButtonSkinnedBase.m in Sources */,
+				6F4D637D149BFA1C0022E702 /* SneakyJoystick.m in Sources */,
+				6F4D637E149BFA1C0022E702 /* SneakyJoystickSkinnedBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,10 +41,5 @@
 #error(unknown architecture)
 #endif
 
-typedef enum _nodeTags {
-    kTagInvalid,
-    kTagBackgroundImageInBackgroundLayer
-    } NodeTags;
-
 #endif // __GAME_CONFIG_H
 

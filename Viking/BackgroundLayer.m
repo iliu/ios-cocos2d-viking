@@ -26,7 +26,7 @@
     
     CGSize screenSize = [[CCDirector sharedDirector] winSize];
     [backgroundImage setPosition:CGPointMake(screenSize.width/2, screenSize.height/2)];
-    [self addChild:backgroundImage z:0 tag:kTagBackgroundImageInBackgroundLayer];
+    [self addChild:backgroundImage];
     
     return self;
 }
