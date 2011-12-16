@@ -121,7 +121,12 @@
 		6F4D6338149BE7C70022E702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D6337149BE7C70022E702 /* main.m */; };
 		6F4D633B149BE7C70022E702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D633A149BE7C70022E702 /* AppDelegate.m */; };
 		6F4D633E149BE7C70022E702 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D633D149BE7C70022E702 /* RootViewController.m */; };
-		6F4D6341149BE7C70022E702 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D6340149BE7C70022E702 /* HelloWorldLayer.m */; };
+		6F4D634A149BE8DC0022E702 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D6349149BE8DC0022E702 /* GameScene.m */; };
+		6F4D634D149BE9470022E702 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D634C149BE9470022E702 /* BackgroundLayer.m */; };
+		6F4D6350149BE96D0022E702 /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D634F149BE96D0022E702 /* GameLayer.m */; };
+		6F4D6360149BF0350022E702 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D635D149BF0350022E702 /* background.png */; };
+		6F4D6361149BF0350022E702 /* backgroundiPhone-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D635E149BF0350022E702 /* backgroundiPhone-hd.png */; };
+		6F4D6362149BF0350022E702 /* backgroundiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4D635F149BF0350022E702 /* backgroundiPhone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -357,9 +362,16 @@
 		6F4D633A149BE7C70022E702 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6F4D633C149BE7C70022E702 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		6F4D633D149BE7C70022E702 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		6F4D633F149BE7C70022E702 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		6F4D6340149BE7C70022E702 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		6F4D6342149BE7C70022E702 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		6F4D6348149BE8DC0022E702 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		6F4D6349149BE8DC0022E702 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		6F4D634B149BE9470022E702 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		6F4D634C149BE9470022E702 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
+		6F4D634E149BE96D0022E702 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
+		6F4D634F149BE96D0022E702 /* GameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
+		6F4D635D149BF0350022E702 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		6F4D635E149BF0350022E702 /* backgroundiPhone-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundiPhone-hd.png"; sourceTree = "<group>"; };
+		6F4D635F149BF0350022E702 /* backgroundiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundiPhone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,14 +430,18 @@
 			children = (
 				6F4D6339149BE7C70022E702 /* AppDelegate.h */,
 				6F4D633A149BE7C70022E702 /* AppDelegate.m */,
+				6F4D6348149BE8DC0022E702 /* GameScene.h */,
+				6F4D6349149BE8DC0022E702 /* GameScene.m */,
 				6F4D633C149BE7C70022E702 /* RootViewController.h */,
 				6F4D633D149BE7C70022E702 /* RootViewController.m */,
-				6F4D633F149BE7C70022E702 /* HelloWorldLayer.h */,
-				6F4D6340149BE7C70022E702 /* HelloWorldLayer.m */,
 				6F4D6342149BE7C70022E702 /* GameConfig.h */,
 				6F4D61E8149BE7C30022E702 /* Resources */,
 				6F4D61FC149BE7C30022E702 /* libs */,
 				6F4D6335149BE7C70022E702 /* Supporting Files */,
+				6F4D634B149BE9470022E702 /* BackgroundLayer.h */,
+				6F4D634C149BE9470022E702 /* BackgroundLayer.m */,
+				6F4D634E149BE96D0022E702 /* GameLayer.h */,
+				6F4D634F149BE96D0022E702 /* GameLayer.m */,
 			);
 			path = Viking;
 			sourceTree = "<group>";
@@ -433,6 +449,7 @@
 		6F4D61E8149BE7C30022E702 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6F4D635C149BF0350022E702 /* Backgrounds */,
 				6F4D61E9149BE7C30022E702 /* Default.png */,
 				6F4D61EB149BE7C30022E702 /* fps_images.png */,
 				6F4D61ED149BE7C30022E702 /* Icon-72.png */,
@@ -758,6 +775,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6F4D635C149BF0350022E702 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				6F4D635D149BF0350022E702 /* background.png */,
+				6F4D635E149BF0350022E702 /* backgroundiPhone-hd.png */,
+				6F4D635F149BF0350022E702 /* backgroundiPhone.png */,
+			);
+			name = Backgrounds;
+			path = Resources/Backgrounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -817,6 +845,9 @@
 				6F4D61F6149BE7C30022E702 /* Icon.png in Resources */,
 				6F4D61F8149BE7C30022E702 /* Icon@2x.png in Resources */,
 				6F4D61FB149BE7C30022E702 /* iTunesArtwork in Resources */,
+				6F4D6360149BF0350022E702 /* background.png in Resources */,
+				6F4D6361149BF0350022E702 /* backgroundiPhone-hd.png in Resources */,
+				6F4D6362149BF0350022E702 /* backgroundiPhone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -924,7 +955,9 @@
 				6F4D6338149BE7C70022E702 /* main.m in Sources */,
 				6F4D633B149BE7C70022E702 /* AppDelegate.m in Sources */,
 				6F4D633E149BE7C70022E702 /* RootViewController.m in Sources */,
-				6F4D6341149BE7C70022E702 /* HelloWorldLayer.m in Sources */,
+				6F4D634A149BE8DC0022E702 /* GameScene.m in Sources */,
+				6F4D634D149BE9470022E702 /* BackgroundLayer.m in Sources */,
+				6F4D6350149BE96D0022E702 /* GameLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,8 +1010,10 @@
 				GCC_PREFIX_HEADER = Viking/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = Viking/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -992,8 +1027,10 @@
 				GCC_PREFIX_HEADER = Viking/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = Viking/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
